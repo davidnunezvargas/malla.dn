@@ -101,7 +101,7 @@ function calcularAvance() {
     });
   });
 
-  const porcentaje = Math.round((completadoCred / totalCred) * 100);
+  const porcentaje = ((completadoCred / totalCred) * 100).toFixed(2);
   document.getElementById('avance').innerText = `Avance para TCU: ${porcentaje}%`;
 }
 
