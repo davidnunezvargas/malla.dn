@@ -4,38 +4,32 @@ body {
   margin: 0;
   padding: 20px;
 }
-
 h1 {
   text-align: center;
   color: #007acc;
 }
-
 .avance {
   text-align: center;
   font-weight: bold;
   margin-bottom: 20px;
 }
-
 .tabla-malla {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   gap: 10px;
 }
-
 .columna-semestre {
   background-color: #f0faff;
   border: 1px solid #007acc;
   border-radius: 10px;
   padding: 10px;
 }
-
 .columna-semestre h2 {
   text-align: center;
   font-size: 1em;
   color: #007acc;
   margin-bottom: 10px;
 }
-
 .curso {
   background-color: #cceeff;
   border: 2px solid #007acc;
@@ -46,18 +40,15 @@ h1 {
   cursor: pointer;
   transition: transform 0.2s ease;
 }
-
 .curso:hover {
   transform: scale(1.03);
 }
-
 .curso.locked {
   background-color: #ddd;
   color: #777;
   border-color: #aaa;
   cursor: not-allowed;
 }
-
 .curso.completed {
   background-color: #b2f2bb;
   border-color: #28a745;
